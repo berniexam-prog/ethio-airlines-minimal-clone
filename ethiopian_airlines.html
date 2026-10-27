@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
+    <title>Ethiopian Airlines</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-xl-5 pt-lg-5">
+      <div class="container-fluid">
+        <a href="" class="navbar-brand"
+          ><img
+            src="./images/et-large-default.svg"
+            alt="Ethiopian Airlines Logo"
+            class="w-25"
+        /></a>
+
+        <div class="navbar-nav fw-bold text-black">
+          <li class="nav-item">
+            <a href="" class="nav-link">Book</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Information</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Ethiopian Group</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="bg-url-image py-3 px-xl-5"
+      style="
+        background-image: url(&quot;./images/addis.avif&quot;);
+        background-size: cover;
+        background-position: center;
+        height: 430px;
+      "
+    >
+      <div class="card">
+        <div class="card-title bg-secondary bg-opacity-25 px-5 py-4">
+          <h1>
+            Book Cheap Flights with Ethiopian Airlines™ from
+            <span class="text-success"
+              >ETB <br />
+              12,367*</span
+            >
+          </h1>
+        </div>
+        <div class="card-body">
+          <div class="d-flex flex-column gap-4">
+            <div class="accordion d-flex gap-4" id="accordion1">
+              <div class="accordion-item" style="width: 13%">
+                <h2
+                  class="accordion-header border-2 border-success rounded"
+                  id="headingOne"
+                >
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    Round Trip
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordion1"
+                >
+                  <div class="accordion-body">
+                    <button class="btn">One way</button>
+                    <button class="btn">Round way</button>
+                    <button class="btn">Multicity</button>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item w-25">
+                <h2 class="accordion-header" id="headingPass">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsePass"
+                    aria-expanded="false"
+                    aria-controls="collapsePass"
+                  >
+                    1 Passenger(s), Economy Class
+                  </button>
+                </h2>
+                <div
+                  id="collapsePass"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingPass"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p class="fw-bold">Passengers</p>
+                    <div class="d-flex gap-2 flex-column">
+                      <button class="btn btn-outline-dark">Adult (18+)</button>
+                      <button class="btn btn-outline-dark">Child (2-17)</button>
+                      <button class="btn btn-outline-dark">Infant (0-2)</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row g-3 align-items-center">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="border border-secondary rounded-1 p-2 bg-white">
+                <label class="form-label text-muted small fw-bold mb-0">From</label>
+                <select class="form-select border-0 bg-transparent p-0 shadow-none text-dark fw-semibold">
+                  <option selected="">Origin</option>
+                  <option value="ADD">Addis Ababa (ADD)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="border border-secondary rounded-1 p-2 bg-white">
+                <label class="form-label text-muted small fw-bold mb-0">To</label>
+                <select class="form-select border-0 bg-transparent p-0 shadow-none text-dark fw-semibold">
+                  <option selected="">Destination</option>
+                  <option value="IAD">Washington, D.C. (IAD)</option>
+                  <option value="DXB">Dubai (DXB)</option>
+                  <option value="DIR">Dire Dawa (DIR)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="border border-secondary rounded-1 p-2 bg-white">
+                <label class="form-label text-muted small fw-bold mb-0">Departure</label>
+                <input type="date" class="form-control border-0 bg-transparent p-0 shadow-none text-dark fw-semibold" value="2026-11-02">
+              </div>
+            </div>
+
+            <div class="col-6 col-md-3 col-lg-2">
+              <div class="border border-secondary rounded-1 p-2 bg-white">
+                <label class="form-label text-muted small fw-bold mb-0">Return</label>
+                <input type="date" class="form-control border-0 bg-transparent p-0 shadow-none text-dark fw-semibold" value="2026-11-09">
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-2">
+              <button class="btn btn-warning fw-bold w-100 py-3 text-dark rounded-1 shadow-sm text-uppercase">
+                Search
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-xxl-4">
+      <h3 class="fw-normal">Find the Cheapest Fares to Top Destinations</h3>
+      <div class="container">
+        <div class="d-flex gap-lg-5 flex-wrap pt-2">
+          <div class="card" style="width: 30%"> 
+            <div class="card-title" style="height: 180px">
+              <img
+                src="./images/dubai-DXB.avif"
+                alt="Ethiopian Airlines Logo"
+                class="w-100 h-100"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Addis Ababa (ADD) to Dubai (DXB)</h5>
+              <p class="card-text">Nov 2, 2026 - Nov 12, 2026</p>
+              <div class="d-flex gap-0 flex-column align-items-end py-2">
+                <p>From</p>
+                <p>ETB <span class="text-success fw-bold">73,198*</span></p>
+                <p>Viewed: 1 hour ago</p>
+                <p>Round-trip | Economy</p>
+              </div>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#modal" class="btn bg-success text-white text-center w-100">
+                Book Now
+              </button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 30%">
+            <div class="card-title" style="height: 180px">
+              <img
+                src="./images/5e1d951c24042_Hawasa_AWA.avif"
+                alt="Ethiopian Airlines Logo"
+                class="w-100 h-100"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Addis Ababa (ADD)to Hawassa (AWA)</h5>
+              <p class="card-text">Nov 2, 2026 - Nov 12, 2026</p>
+              <div class="d-flex gap-0 flex-column align-items-end py-2">
+                <p>From</p>
+                <p>ETB <span class="text-success fw-bold">73,198*</span></p>
+                <p>Viewed: 1 hour ago</p>
+                <p>Round-trip | Economy</p>
+              </div>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#modal" class="btn bg-success text-white text-center w-100">
+                Book Now
+              </button>
+            </div>
+          </div>
+
+          <div class="card" style="width: 30%">
+            <div class="card-title" style="height: 180px">
+              <img
+                src="./images/5e1d949e62411_Bahirdar_BJR.avif"
+                alt="Ethiopian Airlines Logo"
+                class="w-100"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Addis Ababa (ADD)to Banjul (BJL)</h5>
+              <p class="card-text">Nov 2, 2026 - Nov 12, 2026</p>
+              <div class="d-flex gap-0 flex-column align-items-end py-2">
+                <p>From</p>
+                <p>ETB <span class="text-success fw-bold">73,198*</span></p>
+                <p>Viewed: 1 hour ago</p>
+                <p>Round-trip | Economy</p>
+              </div>
+              <button type="button" data-bs-toggle="modal" data-bs-target="#modal" class="btn bg-success text-white text-center w-100">
+                Book Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-xxl-4 ">
+      <h3 class="fw-normal">
+        Explore our Business Class Deals and fly on Cloud 9!
+      </h3>
+      <p style="font-size: 15px">
+        With an additional baggage allowance, an exclusive C9 lounge access and
+        priority boarding, we welcome you onboard Ethiopian Business Class and
+        enjoy the elaborated inflight service with warm Ethiopian hospitality.
+      </p>
+      <div>
+        <div class="d-flex justify-content-center gap-4 rounded border border-1 align-items-center border-secondary px-3 py-2" style="width: 550px">
+          <div>
+            <h3 style="font-size: 17px" >
+              Addis Ababa (ADD)to <br />
+              Paris (CDG)
+            </h3>
+            <p class="text-muted" style="font-size: 14px">
+              Nov 2, 2026 - Nov 12, 2026
+            </p>
+            <p class="text-muted" style="font-size: 14px">
+              Round-trip | Business
+            </p>
+          </div>
+          <div>
+            <p class="text-muted" style="font-size: 14px">
+              From
+              </p>
+              <p class="text-success fw-bold" style="font-size: 14px">
+              ETB 681,237*</p>
+              <p class="text-muted" style="font-size: 14px">
+                Viewed: 2 hours ago
+              </p>
+            </p>
+          </div>
+          <div>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#modal" class="btn btn-outline-success py-2" style="font-size: 14px; width: 200px;">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-xxl-4">
+      <h3 class="fw-normal">Ethiopian Airlines™ - Destinations & Routes</h3>
+      <div class="accordion d-flex flex-column gap-xl-3 mt-4" id="accordion2">
+        <div class="accordion-item" style="width: 100%">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button bg-success text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="true"
+              aria-controls="collapseTwo"
+            >
+              Africa
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordion2"
+          >
+            <div class="accordion-body">
+              <div>
+                <ul
+                  class="col-3 d-flex align-items-start justify-content-start gap-4 flex-wrap list-unstyled"
+                >
+                  <li>Algeria</li>
+                  <li>Angola</li>
+                  <li>Benin</li>
+                  <li>Botswana</li>
+                  <li>Burkina Faso</li>
+                  <li>Burundi</li>
+                  <li>Cameroon</li>
+                  <li>Cape Verde</li>
+                  <li>Central African Republic</li>
+                  <li>Chad</li>
+                  <li>Comoros</li>
+                  <li>Congo</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" style="width: 100%">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button bg-success text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="true"
+              aria-controls="collapseThree"
+            >
+              Asia
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordion2"
+          >
+            <div class="accordion-body">
+              <div>
+                <ul
+                  class="col-3 d-flex align-items-start justify-content-start gap-4 flex-wrap list-unstyled"
+                >
+                  <li>China</li>
+                  <li>India</li>
+                  <li>Japan</li>
+                  <li>Thailand</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" style="width: 100%">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button bg-success text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="true"
+              aria-controls="collapseFour"
+            >
+              Europe
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordion2"
+          >
+            <div class="accordion-body">
+              <div>
+                <ul
+                  class="col-3 d-flex align-items-start justify-content-start gap-4 flex-wrap list-unstyled"
+                >
+                  <li>France</li>
+                  <li>Germany</li>
+                  <li>Italy</li>
+                  <li>Spain</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" style="width: 100%">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button bg-success text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="true"
+              aria-controls="collapseFive"
+            >
+              Oceania
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordion2"
+          >
+            <div class="accordion-body">
+              <div>
+                <ul
+                  class="col-3 d-flex align-items-start justify-content-start gap-4 flex-wrap list-unstyled"
+                >
+                  <li>Australia</li>
+                  <li>New Zealand</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item" style="width: 100%">
+          <h2 class="accordion-header" id="headingSix">
+            <button
+              class="accordion-button bg-success text-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="true"
+              aria-controls="collapseSix"
+            >
+              The Americas
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingSix"
+            data-bs-parent="#accordion2"
+          >
+            <div class="accordion-body">
+              <div>
+                <ul
+                  class="col-3 d-flex align-items-start justify-content-start gap-4 flex-wrap list-unstyled"
+                >
+                  <li>Canada</li>
+                  <li>United States</li>
+                  <li>Mexico</li>
+                  <li>Brazil</li>
+                  <li>Argentina</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+        class="modal fade"
+        id="modal"
+        tabindex="-1"
+        aria-labelledby="modalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalLabel">Book Flight</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="d-block p-3 gap-3">
+            <div class="my-3">
+              <div class="border border-secondary rounded-1 p-2 bg-white">
+                <label class="form-label text-muted small fw-bold mb-0">From</label>
+                <select class="form-select border-0 bg-transparent p-0 shadow-none text-dark fw-semibold">
+                  <option selected="">Origin</option>
+                  <option value="ADD">Addis Ababa (ADD)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="my-3">
+              <div class="border border-secondary rounded-1 p-2 bg-white">
+                <label class="form-label text-muted small fw-bold mb-0">To</label>
+                <select class="form-select border-0 bg-transparent p-0 shadow-none text-dark fw-semibold">
+                  <option selected="">Destination</option>
+                  <option value="IAD">Washington, D.C. (IAD)</option>
+                  <option value="DXB">Dubai (DXB)</option>
+                  <option value="DIR">Dire Dawa (DIR)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="my-2">
+              <div class="border border-secondary rounded-1 p-2 bg-white">
+                <label class="form-label text-muted small fw-bold mb-0">Departure</label>
+                <input type="date" class="form-control border-0 bg-transparent p-0 shadow-none text-dark fw-semibold" value="2026-11-02">
+              </div>
+            </div>
+
+            <div class="my-3">
+              <div class="border border-secondary rounded-1 p-2 bg-white">
+                <label class="form-label text-muted small fw-bold mb-0">Return</label>
+                <input type="date" class="form-control border-0 bg-transparent p-0 shadow-none text-dark fw-semibold" value="2026-11-09">
+              </div>
+            </div>
+          </div>
+            </div>
+            <div class="modal-footer">
+              <div class="w-100">
+              <button class="btn btn-warning fw-bold w-100 py-3 text-dark rounded-1 shadow-sm text-uppercase">
+                Search
+              </button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+  <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</html>
